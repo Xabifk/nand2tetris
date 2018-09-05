@@ -1,0 +1,24 @@
+CHIP Splitter16 {
+    IN in[16];
+    OUT a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p;
+    //OUT 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15;
+
+    PARTS:
+    // Put your code here:
+    And(a=in[0], b=true, out=a);
+    And(a=in[1], b=true, out=b);
+    And(a=in[2], b=true, out=c);
+    And(a=in[3], b=true, out=d);
+    And(a=in[4], b=true, out=e);
+    And(a=in[5], b=true, out=f);
+    And(a=in[6], b=true, out=g);
+    And(a=in[7], b=true, out=h);
+    And(a=in[8], b=true, out=i);
+    And(a=in[9], b=true, out=j);
+    And(a=in[10], b=true, out=k);
+    And(a=in[11], b=true, out=l);
+    And(a=in[12], b=true, out=m);
+    And(a=in[13], b=true, out=n);
+    And(a=in[14], b=true, out=o);
+    And(a=in[15], b=true, out=p);
+}
